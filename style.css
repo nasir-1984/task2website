@@ -1,0 +1,609 @@
+.flex-container{
+     width: 100%;
+
+ background: #FFFFFF;
+box-shadow: 30px 25px 100px rgba(0, 0, 0, 0.15);
+
+}
+
+body{
+  margin: 0;
+}
+
+*{
+  font-family: 'SF Pro Display';
+font-style: normal;
+}
+
+
+
+.leftNav{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftNav ul{
+    display: flex;
+    font-weight: 500;
+font-size: 14px;
+line-height: 8px;
+/* margin-top: 14.67px; */
+margin-left: 176px;
+
+}
+.leftNav ul li{
+    list-style: none;
+    display: flex;
+    padding-left: 14px;
+    margin-top: 16.67px;
+    
+
+    
+}
+.leftNav ul li a{
+    text-decoration: none;
+    color: #000000;
+
+}
+.leftNav img{
+    padding-left: 72px;
+    display: flex;
+
+padding-top: 15.56px;
+width: 36px;
+}
+
+.leftNav span{
+    margin-left: -270px; 
+   font-weight: 700;
+font-size: 15px;
+padding-top: 14px;
+padding-left: 8px;
+}
+
+.btn{
+    justify-content: center;
+align-items: center;
+padding: 1.33333px 12.4444px;
+
+width: 90px;
+height: 32px;
+
+background: #0077C0;
+border: none;
+border-radius: 4.44444px;
+text-align: center;
+
+color: #FFFFFF;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+
+ }
+
+ #btn-one{
+  display: flex;
+    margin-top: 7px;
+    margin-left: 14.22px;
+ }
+
+ .intro{
+    padding-left: 100px;
+    padding-top: 0px;
+
+  
+
+   
+ }
+
+ .intro h1{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 46px;
+line-height: 125%;
+letter-spacing: -0.222222px;
+/* width: 242.67px; */
+
+color: #000000;
+ }
+
+ .largeparagraph{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+
+
+color: #000000;
+ }
+
+ #introparagraph{
+  padding-left: 0px;
+ }
+
+  .introparent{
+    display: flex;
+
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+   
+
+ .img1{
+    position: relative;
+    width: 380px;
+    margin-right: 30px;
+    margin-top: 114px;
+ }
+
+ .img2{
+    position: absolute;
+    width: 280px;
+    left: 903px;
+    top: 126px;
+ }
+
+ .socialmedialinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+    
+   }
+
+   .socialmedialinks ul{
+      
+      list-style: none;
+      display: flex;
+      margin-top: 0px;
+      margin-bottom: 0px;
+    
+    
+    
+      
+   }
+   .socialmedialinks ul li{
+       
+       padding: 64px;
+       
+      
+   }
+   .socialmedialinks ul li img{
+      width: 92px;
+        margin-left: 0px;
+
+       
+      }
+
+       .ourplateformcontainer{
+        width: 100%;
+
+background: #0077C0;
+    }
+
+    .ourplateformcontainer h5 , .testimonial h5,.business_growing h5{
+        font-weight: 600;
+font-size: 10px;
+line-height: 8px;
+
+letter-spacing: 1.33333px;
+    }
+
+    .ourplateformcontainer h5 , .testimonial h5{
+      padding-top: 75px;
+      text-align: center;
+    }
+
+    .ourplateformcontainer h5, .business_growing h5{
+      color: #FAFAFA; 
+    }
+
+    .ourplateformcontainer h2,.business_growing h2{
+        font-weight: 700;
+font-size: 25px;
+line-height: 25px;
+letter-spacing: -0.222222px;
+
+color: #FFFFFF;
+
+    }
+    .ourplateformcontainer h2{
+      text-align: center;
+    }
+
+    .features{
+        display: flex;
+        /* justify-content: space-around; */
+    }
+
+  
+    .icon{
+         margin-left: 208px; 
+         
+    
+    }
+
+    .icon img{
+      width: 100px;
+    }
+     #icon2{
+      margin-left: 140px;
+     }
+     #icon3{
+         margin-left: 80px; 
+     } 
+
+  .icon h3{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 13px;
+    
+    
+    color: #FAFAFA;
+  }
+
+  .icon p{
+    font-weight: 400;
+font-size: 11px;
+line-height: 11px;
+margin-bottom: 60px;
+
+
+color: #FAFAFA;
+
+
+  }
+
+  
+ 
+  .wakandaeasyplatform{
+    display: flex;
+     margin-left: 206px;
+    margin-top: 30px;
+    margin-bottom: 32px;
+  } 
+
+  .leftwakanda_sec img{
+    margin-left: px;
+    width: 300px;
+  }
+  .rightwakanda_sec h2{
+    margin-left: 250px;
+    margin-top: 50px;
+  }
+
+   .parentofnumbering_paragraph{
+     display: flex;
+  }
+  
+  .paragraph_numbering{
+    width: 24.22px;
+height: 24.22px;
+border-radius: 50%;
+text-align: center;
+font-size: 10px;
+margin-left: 250px;
+background: #C7EEFF;
+margin-top:  6px;
+line-height: 20px;
+  }
+
+  .parentofnumbering_paragraph p{
+    font-size: 12px;
+    line-height:12px ;
+    padding-left: 6px;
+  }
+
+
+.explorehiretalent{
+   
+  width: 100%;
+/* height: 284.44px; */
+display: flex;
+
+background: #C7EEFF;
+}
+
+.leftside{
+  margin-left: 207px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+ #explorepara{
+  
+  padding-left: 0px;
+  margin-top: -15px;
+} 
+
+.heropic{
+  margin-left: 360px;
+  margin-bottom: -5px;
+  position: relative;
+  margin-top: 18px;
+  
+}
+
+ .heropic img{
+  width: 320px;
+} 
+
+.card{
+  width: 220px;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 360px;
+}
+
+.explorehiretalent h2 , .testimonial h2,.rightwakanda_sec h2{
+  font-weight: 700;
+font-size: 28px;
+line-height: 125%;
+
+letter-spacing: -0.222222px;
+
+color: #000000;
+}
+
+
+
+.testimonial{
+  width: 100%;
+/* height: fit-content; */
+margin-top: -18px;
+
+background: #FAFAFA;
+}
+
+
+.testimonial h5 , .testimonial h2{
+
+ text-align: center;
+} 
+
+.testimonial h5{
+  color: 
+  #0077C0;
+}
+
+.paragraphcontainer{
+  display: flex;
+  /* margin-top: 10px; */
+  margin-left: 200px;
+}
+
+.box{
+  width: 310px;
+ height: fit-content;
+margin: 10px;
+background: #FFFFFF;
+
+/* border: 1px solid black; */
+}
+
+.parent{
+  display: flex;
+}
+
+.largeparagraph{
+   padding-top: 15px; 
+  padding-left: 8px;
+}
+
+.parentclass{
+  display: flex;
+  
+  
+  
+}
+
+.profile_pic{
+  padding-left: 4px;
+  display: flex;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.heading_ranking{
+  text-align: left;
+}
+
+.ranking{
+  line-height: 0px;
+  margin-left: 86px;
+border-radius: 0.444444px;
+margin-bottom: 30px;
+
+
+}
+
+.ranking img{
+  width: 13px;
+}
+
+.heading{
+  font-weight: 500;
+  font-family: 'SF Pro Display';
+font-size: 16px;
+line-height: 0px;
+margin-left: 86px;
+margin-top: 43px;
+color: #000000;
+ 
+}
+
+ /* get your business section started */
+
+ .getyourbusiness{
+  width: 966px;
+/* height: 156.44px; */
+margin-left: 212px;
+margin-top: 31.11px;
+background: #0077C0;
+display: flex;
+}
+
+#btn-four{
+  background: #FFFFFF;
+
+color: #0071D9;
+font-weight: 600;
+font-size: 10px;
+}
+
+.cutebaby{
+  margin-left: 38px;
+  margin-top: 20px;
+  margin-bottom: -4px;
+  
+}
+
+.cutebaby img{
+  width: 235px;
+}
+
+.business_growing{
+  padding-left: 400px;
+  padding-top: 25px;
+}
+  
+ 
+.footer{
+  width: 100%;
+/* height: 162.89px; */
+margin-top: 31.11px;
+background: #1D242B;
+display: flex;
+}
+
+.wakandafooter{
+  color: #FFFFFF;
+  margin-left: 212px;
+  padding-top: 39px;
+  font-weight: 700;
+font-size: 17px;
+line-height: 13px;
+}
+
+.wakandafooter img{
+  width: 25px;
+}
+.sociallinks{
+ margin-left: 212px;
+ word-spacing: 6px;
+ padding-top: 13px;
+
+}
+
+.size{
+  width: 22px;
+}
+  
+
+
+.copyright{
+  font-weight: 400;
+font-size: 9px;
+line-height: 11px;
+margin-left: 212px;
+padding-top: 6px;
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+
+
+color: #D9DBE1;
+}
+
+.aboutcompany ,.support , .news_footer{
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  padding-left: 156px;
+  padding-top: 29px;
+  
+  font-feature-settings: 'salt' on, 'liga' off;
+  
+
+  
+  color: #FFFFFF;
+}
+
+.aboutcompany h5 , .support h5{
+padding-left: 39px;
+}
+
+.aboutcompany ul ,.support ul{
+  font-weight: 400;
+
+
+}.aboutcompany ul li , .support ul li{
+
+list-style: none;
+}
+
+.aboutcompany ul li a, .support ul li a{
+text-decoration: none;
+font-weight: 400;
+font-size: 9px;
+line-height: 20px;
+/* identical to box height, or 162% */
+
+font-feature-settings: 'salt' on, 'liga' off;
+
+/* Text / Gray 300 */
+
+color: #D9DBE1;
+}
+
+
+  .news_footer input{
+    
+opacity: 1.2;
+border-radius: 5px;
+    width: 120px;
+    height: 17px;
+    font-size: 9px;
+    text-align: left;
+    background: lightslategray;
+    border: none;
+     position: relative;
+     color: white;
+     text-indent: 7px;
+     
+    
+  }
+
+  ::placeholder { 
+      color: #FFFFFF;
+     padding-left: 2px;
+  }
+
+  .news_footer img{
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 5px;
+  }
+
+
+
+
+
+
+
+
+    
+
+     
+   
+
+
+
+
